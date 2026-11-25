@@ -1,0 +1,25 @@
+{
+  "name": "inventory-management-api",
+  "version": "1.0.0",
+  "description": "RESTful backend for an Inventory and Data Management System built with Node.js, Express.js, Mongoose, and dotenv.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "seed": "node scripts/seed.js",
+    "test": "node --test tests/*.test.js"
+  },
+  "keywords": [
+    "inventory",
+    "express",
+    "mongoose",
+    "mongodb",
+    "rest-api"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2",
+    "mongoose": "^8.9.5"
+  }
+}
